@@ -1,1 +1,31 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+  display: flex;
+}
+.container-fluid {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  height: 300px;
+  width: 200px;
+}
+.card-body {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+.card-footer {
+  display: flex;
+  justify-content: end;
+}
+
+.red {
+  color: red;
+}
+.black {
+  color: black;
+}
